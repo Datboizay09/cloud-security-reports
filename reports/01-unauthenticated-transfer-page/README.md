@@ -17,7 +17,7 @@ than the form, and alert on enumeration activity.
 
 ## 2. Scope and Methodology
 - **Target:** fakebank.thm (training lab)
-- **Approach:** [dirb] was run against the web
+- **Approach:** [dirb] was run against the web <img width="335" height="38" alt="Screenshot 2026-10-14 204955" src="https://github.com/user-attachments/assets/8c5bff22-642d-49f2-8cae-ad90d00d5677" />
   root with [wordlist name] and responses were reviewed by HTTP status code.
 - **Frameworks:** OWASP Top 10 (A01: Broken Access Control),
   MITRE ATT&CK T1595.003 (Wordlist Scanning), T1190 (Exploit Public-Facing Application)
