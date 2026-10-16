@@ -17,8 +17,7 @@ than the form, and alert on enumeration activity.
 
 ## 2. Scope and Methodology
 - **Target:** fakebank.thm (training lab)
-- **Approach:** [dirb] was run against the web <img width="335" height="38" alt="Screenshot 2026-10-14 204955" src="https://github.com/user-attachments/assets/8c5bff22-642d-49f2-8cae-ad90d00d5677" />
-  root with [wordlist name] and responses were reviewed by HTTP status code.
+- **Approach:** [dirb] was run against the web root with [wordlist name] and responses were reviewed by HTTP status code.
 - **Frameworks:** OWASP Top 10 (A01: Broken Access Control),
   MITRE ATT&CK T1595.003 (Wordlist Scanning), T1190 (Exploit Public-Facing Application)
 
@@ -34,7 +33,7 @@ access to transfer form → funds can be moved
 |---|---|
 | Severity | High |
 | Affected asset | fakebank.thm/bank-transfer |
-| Description | The page is not linked from the site but is also not protected. Content discovery found it, and it returned 200 OK to an unauthenticated request. |
+| Description | The page is not linked from the site but is also not protected. Content discovery found it, and it returned 200 OK to an unauthenticated request.
 | Evidence | Figure 1 |
 | Business impact | A direct path to financial fraud, with no credentials required. |
 | Root cause | Reliance on obscurity instead of access control. |
